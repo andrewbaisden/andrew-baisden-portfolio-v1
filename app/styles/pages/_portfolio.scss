@@ -1,0 +1,47 @@
+.work-container {
+        @include work-container-box;
+
+    h1 {
+        text-transform: none;
+        background-color: #606060;
+        width: 100%;
+        font-size: $primary-font-size;
+        padding: 5px 0 5px 5px;
+    }
+
+    p {
+        background-color: #D3D3D3;
+        width: 100%;
+        font-size: $primary-font-size;
+        padding: 5px 0 5px 5px;
+        color: $primary-font-color;
+        font-weight: 700;
+        height: 60px;
+    }
+
+    &:hover {
+        background: $link-font-color;
+     }
+    
+}
+
+.project-container {
+    background: $project-container-bg;
+    padding: 10px;
+    margin-bottom: 30px;
+
+    > span {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    img {
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+.client-image {
+    @include work-container-box;
+}

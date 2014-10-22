@@ -1,0 +1,19 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// Definings
+@import "_variables.scss";
+@import "_mixins.scss";
+
+// Global Styles
+@import "_global.scss";
+
+// Page Specifics
+@import "pages/_about.scss";
+@import "pages/_portfolio.scss";
+@import "pages/_contact.scss";
+
+// Responsive Camera Slider
+@import "_camera.scss";
