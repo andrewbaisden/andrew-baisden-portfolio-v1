@@ -45,3 +45,14 @@
 .client-image {
     @include work-container-box;
 }
+
+@media screen and (max-width: 480px) {
+
+    .work-container {
+        
+        p {
+            font-size: 13px;
+        }
+    }
+
+}
