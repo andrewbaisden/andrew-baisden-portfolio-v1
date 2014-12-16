@@ -18,20 +18,28 @@ Canonical Links - http://alexcican.com/post/how-to-remove-php-html-htm-extension
 
 Copy the sitemap.xml file as well
 
-INSTALL OPTION 1
+Local Development Enviroment Prerequisites
+
+- Ruby
+- Sass
+- Node.js
+- npm
+- git
+
+Local Repo INSTALL OPTION 1 (WARNING Commits will be lost)
 
 1. Download .zip from github
 2. CD into the folder and run the command "npm install"
-3. CD into the folder and run the command "bower install"
-4. Replace existing folders and files with the ones on your computer
-5. Run the command "git init" and set it up with the repo
+3. Run the command "bower install"
+4. Run the command "git init" and set it up with the repo
+5. Run the command "grunt serve" to make sure it is working
 
-INSTALL OPTION 2
+Local Repo INSTALL OPTION 2 (Clean Install with commits)
 
 1. Make a folder directory
 2. Run "yo webapp" and install with bootstrap and Sass
-3. Replace existing folders and files with the ones in this folder
-4. Run the command "git init" and set it up with the repo
+3. Replace existing folders and files with the ones in the MASTER
+4. Run the command "grunt serve" to make sure it is working
 
 
 
