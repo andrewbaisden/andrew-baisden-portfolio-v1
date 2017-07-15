@@ -93,13 +93,13 @@ a {
 	}
 
 }
-	
+
 #main-navigation a {
 	display: block;
 	width: 106px;
 	height: 147px;
 	text-decoration: none;
-}	
+}
 
 .home-btn {
 	background: url("../images/home-btn.png") no-repeat;
@@ -166,7 +166,7 @@ a {
 
 	ul {
 		padding: 0;
-		
+
 
 		li {
 			list-style: none;
@@ -191,7 +191,7 @@ a {
 	background-color: $footer-container-bg;
 }
 
-#copyright, 
+#copyright,
 #dploy {
 	color: $footer-font-color;
 	margin-top: 20px;
@@ -215,8 +215,7 @@ a {
 	}
 
 	img {
-		height: 80px;
-		width: 206px;
+		width: 100px;
 	}
 
 
